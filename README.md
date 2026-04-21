@@ -24,7 +24,7 @@ This repository contains an end-to-end analytics platform designed to predict cu
 
 * ``models/:`` Stores serialized preprocessors and trained XGBoost models (.pkl files).
 
-* ``data/:`` Directory for raw data and processed results, specifically the final 07_customer_decisions.csv.
+* ``data/:`` Directory for raw data and processed results, specifically the final ``07_customer_decisions.csv``.
 
 ## Decision Matrix Logic
 
