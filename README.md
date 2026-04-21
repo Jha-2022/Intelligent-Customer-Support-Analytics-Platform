@@ -9,3 +9,19 @@ This repository contains an end-to-end analytics platform designed to predict cu
 * **Advanced Feature Engineering:** Calculates complex metrics such as ```SpendVelocity``` (tracking if a customer is slowing down) and ```UniqueItemsCount``` to better understand purchasing patterns.
 
 * **Interactive Command Center:** A Streamlit-based dashboard providing high-level KPIs, including "Revenue at Stake" and "Average Churn Probability".
+
+# Repository Structure
+
+* ``app/:`` Contains the Streamlit dashboard files for data visualization.
+
+* ``src/:`` Core logic and pipeline scripts:
+
+  * ``run_pipeline.py:`` Orchestrates the full process from feature transformation to saving final decisions.
+
+  * ``decision_engine.py:`` Defines the logic for risk-tiering and the business "Action Plan" matrix.
+
+  * ``feature_engineering.py:`` Functions for generating advanced behavioral features.
+
+* ``models/:`` Stores serialized preprocessors and trained XGBoost models (.pkl files).
+
+* ``data/:`` Directory for raw data and processed results, specifically the final 07_customer_decisions.csv.
