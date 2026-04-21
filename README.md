@@ -10,7 +10,7 @@ This repository contains an end-to-end analytics platform designed to predict cu
 
 * **Interactive Command Center:** A Streamlit-based dashboard providing high-level KPIs, including "Revenue at Stake" and "Average Churn Probability".
 
-# Repository Structure
+## Repository Structure
 
 * ``app/:`` Contains the Streamlit dashboard files for data visualization.
 
@@ -25,3 +25,16 @@ This repository contains an end-to-end analytics platform designed to predict cu
 * ``models/:`` Stores serialized preprocessors and trained XGBoost models (.pkl files).
 
 * ``data/:`` Directory for raw data and processed results, specifically the final 07_customer_decisions.csv.
+
+## Decision Matrix Logic
+
+The system assigns actions based on the intersection of customer value and churn risk:
+
+| Risk Tier | Value Tier | Recommended Action |
+| -------- | -------- | -------- |
+| High Risk | High Value | VIP Save: Personal Call + 30% Discount |
+| High Risk | Low/Mid Value | Standard Save: Automated Email Discount |
+| Low Risk | High Value | Loyalty: Early Access to New Designs |
+| Any | Any | Monitor: Regular Newsletter |
+
+
