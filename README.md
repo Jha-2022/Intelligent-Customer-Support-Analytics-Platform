@@ -78,5 +78,10 @@ Any	Any	Monitor: Regular Newsletter
 
 ## Getting Started
 
-** Prerequisites **
+### Prerequisites
+* Python 3.x
+* Dependencies: ``pandas``, ``numpy``, ``streamlit``, ``xgboost``, ``joblib``, ``scikit-learn``
 
+### Execution
+1. Generate Insights: Run the main pipeline to process customer data and generate the decision file:
+2. Launch Dashboard: Start the Streamlit application to visualize the results:
