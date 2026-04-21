@@ -83,9 +83,13 @@ Any	Any	Monitor: Regular Newsletter
 * Dependencies: ``pandas``, ``numpy``, ``streamlit``, ``xgboost``, ``joblib``, ``scikit-learn``
 
 #### Execution
+
 1. **Generate Insights:** Run the main pipeline to process customer data and generate the decision file:
-   ```python src/run_pipeline.py```
-2. **Launch Dashboard:** Start the Streamlit application to visualize the results:
+   ```
+       python src/run_pipeline.py
+   ```
+   
+3. **Launch Dashboard:** Start the Streamlit application to visualize the results:
    ```
        streamlit run app/streamlit_app.py
    ```
