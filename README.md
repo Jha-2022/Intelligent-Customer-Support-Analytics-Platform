@@ -14,7 +14,10 @@ This repository contains an end-to-end analytics platform designed to predict cu
   <img src="src/2026-05-06 22-58-53.png" width="47%" alt="Dashboard Overview" />
   <img src="src/2026-05-06 22-58-53.png" width="47%" alt="Route Mapping" />
 </p>
-<img src="src/2026-05-06 22-58-53.png" width="70%" alt="Route Mapping" />
+
+<p align="center">
+  <img src="src/2026-05-06 22-58-53.png" width="70%" alt="Route Mapping" />
+</p>
 
 ## Repository Structure
 
