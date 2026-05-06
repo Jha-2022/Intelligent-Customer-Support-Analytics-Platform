@@ -11,8 +11,8 @@ This repository contains an end-to-end analytics platform designed to predict cu
 * **Interactive Command Center:** A Streamlit-based dashboard providing high-level KPIs, including "Revenue at Stake" and "Average Churn Probability".
 
   <p align="center">
-  <img src="frontend/public/h2ssnapshor2.png" width="47%" alt="Dashboard Overview" />
-  <img src="frontend/public/h2ssnapshot1.png" width="47%" alt="Route Mapping" />
+  <img src="src/2026-05-06 22-58-53.png" width="47%" alt="Dashboard Overview" />
+  <img src="src/2026-05-06 22-58-53.png" width="47%" alt="Route Mapping" />
 </p>
 
 
